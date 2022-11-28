@@ -1,0 +1,328 @@
+#######################################################################################
+# Copyright ETSI Contributors and Others.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+# implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#######################################################################################
+aiokafka==0.7.2
+    # via -r requirements.in
+appdirs==1.4.4
+    # via openstacksdk
+attrs==21.4.0
+    # via cmd2
+autopage==0.5.1
+    # via cliff
+backports-zoneinfo==0.2.1
+    # via
+    #   pytz-deprecation-shim
+    #   tzlocal
+certifi==2022.6.15
+    # via requests
+cffi==1.15.0
+    # via cryptography
+charset-normalizer==2.0.12
+    # via requests
+cliff==3.10.1
+    # via
+    #   gnocchiclient
+    #   osc-lib
+    #   python-neutronclient
+cmd2==2.4.1
+    # via cliff
+cryptography==37.0.2
+    # via openstacksdk
+cycler==0.11.0
+    # via matplotlib
+dateparser==1.1.1
+    # via prometheus-api-client
+debtcollector==2.5.0
+    # via
+    #   gnocchiclient
+    #   oslo-config
+    #   oslo-context
+    #   oslo-log
+    #   oslo-utils
+    #   python-keystoneclient
+    #   python-neutronclient
+decorator==5.1.1
+    # via
+    #   dogpile-cache
+    #   openstacksdk
+dogpile-cache==1.1.6
+    # via openstacksdk
+fonttools==4.33.3
+    # via matplotlib
+futurist==2.4.1
+    # via gnocchiclient
+gnocchiclient==7.0.7
+    # via -r requirements.in
+httmock==1.4.0
+    # via prometheus-api-client
+humanfriendly==10.0
+    # via
+    #   -r requirements.in
+    #   pyvcloud
+idna==3.3
+    # via requests
+iso8601==1.0.2
+    # via
+    #   gnocchiclient
+    #   keystoneauth1
+    #   openstacksdk
+    #   oslo-utils
+    #   python-ceilometerclient
+    #   python-neutronclient
+    #   python-novaclient
+jmespath==1.0.1
+    # via openstacksdk
+jsonpatch==1.32
+    # via openstacksdk
+jsonpointer==2.3
+    # via jsonpatch
+kafka-python==2.0.2
+    # via aiokafka
+keystoneauth1==4.6.0
+    # via
+    #   gnocchiclient
+    #   openstacksdk
+    #   osc-lib
+    #   python-ceilometerclient
+    #   python-cinderclient
+    #   python-keystoneclient
+    #   python-neutronclient
+    #   python-novaclient
+kiwisolver==1.4.3
+    # via matplotlib
+lxml==4.9.0
+    # via
+    #   -r requirements.in
+    #   pyvcloud
+    #   unittest-xml-reporting
+matplotlib==3.5.2
+    # via prometheus-api-client
+monotonic==1.6
+    # via gnocchiclient
+msgpack==1.0.4
+    # via oslo-serialization
+munch==2.5.0
+    # via openstacksdk
+netaddr==0.8.0
+    # via
+    #   oslo-config
+    #   oslo-utils
+    #   python-neutronclient
+netifaces==0.11.0
+    # via
+    #   openstacksdk
+    #   oslo-utils
+numpy==1.23.0
+    # via
+    #   matplotlib
+    #   pandas
+    #   prometheus-api-client
+openstacksdk==0.99.0
+    # via
+    #   os-client-config
+    #   osc-lib
+os-client-config==2.1.0
+    # via python-neutronclient
+os-service-types==1.7.0
+    # via
+    #   keystoneauth1
+    #   openstacksdk
+osc-lib==2.6.0
+    # via python-neutronclient
+oslo-config==8.8.0
+    # via
+    #   oslo-log
+    #   python-keystoneclient
+oslo-context==4.1.0
+    # via oslo-log
+oslo-i18n==5.1.0
+    # via
+    #   osc-lib
+    #   oslo-config
+    #   oslo-log
+    #   oslo-utils
+    #   python-ceilometerclient
+    #   python-cinderclient
+    #   python-keystoneclient
+    #   python-neutronclient
+    #   python-novaclient
+oslo-log==5.0.0
+    # via python-neutronclient
+oslo-serialization==4.3.0
+    # via
+    #   oslo-log
+    #   python-ceilometerclient
+    #   python-keystoneclient
+    #   python-neutronclient
+    #   python-novaclient
+oslo-utils==6.0.0
+    # via
+    #   osc-lib
+    #   oslo-log
+    #   oslo-serialization
+    #   python-ceilometerclient
+    #   python-cinderclient
+    #   python-keystoneclient
+    #   python-neutronclient
+    #   python-novaclient
+packaging==21.3
+    # via
+    #   matplotlib
+    #   oslo-utils
+    #   python-keystoneclient
+    #   pyvcloud
+pandas==1.4.3
+    # via prometheus-api-client
+pbr==5.9.0
+    # via
+    #   cliff
+    #   gnocchiclient
+    #   keystoneauth1
+    #   openstacksdk
+    #   os-service-types
+    #   osc-lib
+    #   oslo-context
+    #   oslo-i18n
+    #   oslo-log
+    #   oslo-serialization
+    #   python-ceilometerclient
+    #   python-cinderclient
+    #   python-keystoneclient
+    #   python-neutronclient
+    #   python-novaclient
+    #   stevedore
+pillow==9.1.1
+    # via matplotlib
+prettytable==0.7.2
+    # via
+    #   cliff
+    #   python-ceilometerclient
+    #   python-cinderclient
+    #   python-novaclient
+prometheus-api-client==0.5.1
+    # via -r requirements.in
+prometheus-client==0.14.1
+    # via -r requirements.in
+pycparser==2.21
+    # via cffi
+pygments==2.12.0
+    # via pyvcloud
+pyinotify==0.9.6
+    # via oslo-log
+pyparsing==3.0.9
+    # via
+    #   cliff
+    #   matplotlib
+    #   oslo-utils
+    #   packaging
+pyperclip==1.8.2
+    # via cmd2
+python-ceilometerclient==2.9.0
+    # via -r requirements.in
+python-cinderclient==8.3.0
+    # via -r requirements.in
+python-dateutil==2.8.2
+    # via
+    #   dateparser
+    #   gnocchiclient
+    #   matplotlib
+    #   oslo-log
+    #   pandas
+    #   pyvcloud
+python-keystoneclient==4.5.0
+    # via
+    #   -r requirements.in
+    #   python-neutronclient
+python-neutronclient==7.8.0
+    # via -r requirements.in
+python-novaclient==18.0.0
+    # via -r requirements.in
+pytz==2022.1
+    # via
+    #   dateparser
+    #   oslo-serialization
+    #   oslo-utils
+    #   pandas
+pytz-deprecation-shim==0.1.0.post0
+    # via tzlocal
+pyvcloud==23.0.3
+    # via -r requirements.in
+pyyaml==5.4.1
+    # via
+    #   -r requirements.in
+    #   cliff
+    #   openstacksdk
+    #   oslo-config
+    #   pyvcloud
+regex==2022.3.2
+    # via dateparser
+requests==2.28.0
+    # via
+    #   -r requirements.in
+    #   httmock
+    #   keystoneauth1
+    #   oslo-config
+    #   prometheus-api-client
+    #   python-ceilometerclient
+    #   python-cinderclient
+    #   python-keystoneclient
+    #   python-neutronclient
+    #   pyvcloud
+requestsexceptions==1.4.0
+    # via openstacksdk
+rfc3986==2.0.0
+    # via oslo-config
+simplejson==3.17.6
+    # via
+    #   osc-lib
+    #   python-cinderclient
+    #   python-neutronclient
+six==1.16.0
+    # via
+    #   -r requirements.in
+    #   gnocchiclient
+    #   keystoneauth1
+    #   munch
+    #   python-ceilometerclient
+    #   python-dateutil
+    #   python-keystoneclient
+stevedore==3.5.0
+    # via
+    #   cliff
+    #   dogpile-cache
+    #   keystoneauth1
+    #   osc-lib
+    #   oslo-config
+    #   python-ceilometerclient
+    #   python-cinderclient
+    #   python-keystoneclient
+    #   python-novaclient
+tzdata==2022.1
+    # via pytz-deprecation-shim
+tzlocal==4.2
+    # via dateparser
+ujson==5.3.0
+    # via gnocchiclient
+unittest-xml-reporting==3.2.0
+    # via pyvcloud
+urllib3==1.26.9
+    # via requests
+vcd-api-schemas-type==10.3.0.dev72
+    # via pyvcloud
+wcwidth==0.2.5
+    # via cmd2
+wrapt==1.14.1
+    # via debtcollector
